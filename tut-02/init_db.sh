@@ -1,8 +1,8 @@
 #!/bin/bash
 
-psql -U postgres -d postgres -c "
-CREATE DATABASE BD_NIV2
-WITH 
+# Cria o banco de dados
+psql -U postgres -d postgres -c CREATE DATABASE BD_NIV2
+    WITH
     OWNER = postgres
     ENCODING = 'UTF8'
     LC_COLLATE = 'Portuguese_Brazil.1252'

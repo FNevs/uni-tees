@@ -3,7 +3,7 @@ FROM pgvector/pgvector:pg17
 # Variáveis de ambiente para o PostgreSQL
 ENV POSTGRES_USER=postgres
 ENV POSTGRES_PASSWORD=qualquer_uma
-ENV POSTGRES_DB=BD_PESQUISADOR
+ENV POSTGRES_DB=BD_NIV2
 ENV POSTGRES_HOST_AUTH_METHOD=trust
 # Copie o arquivo script de inicialização para o container
 COPY init_db.sh /docker-entrypoint-initdb.d/init_db.sh
