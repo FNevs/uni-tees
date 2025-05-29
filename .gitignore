@@ -1,0 +1,6 @@
+# Ignora arquivos de modelo treinado
+*.pkl
+# Ignora arquivos de log
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
