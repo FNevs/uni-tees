@@ -1,0 +1,20 @@
+services:
+  postgres:
+    # Usa a imagem oficial do PostgreSQL
+    image: postgres
+
+    # Configura variáveis de ambiente para o contêiner do PostgreSQL
+    environment:
+      # Nome do banco de dados a ser criado no início
+      - POSTGRES_DB=postgres
+      # Nome do usuário do banco de dados
+      - POSTGRES_USER=postgres
+      # Senha para o usuário do banco de dados
+      - POSTGRES_PASSWORD=root
+      # Argumentos adicionais para a inicialização do banco de dados
+      - LANG=C.UTF-8
+      - LC_ALL=C.UTF-8
+
+    # Mapeia a porta 5432 do contêiner para a porta 5434 do host
+    ports:
+      - "5434:5432"
