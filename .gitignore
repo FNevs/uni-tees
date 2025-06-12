@@ -7,3 +7,4 @@ __pycache__/
 # Ignora arquivos de configuração do ambiente virtual
 .venv
 venv
+.env
