@@ -1,24 +1,26 @@
-# Tutoriais - Tópicos Especiais em Engenharia de Software
+# Tutorials – Special Topics in Software Engineering
 
-Este repositório reúne tutoriais práticos desenvolvidos para a disciplina de **Tópicos Especiais em Engenharia de Software**. O objetivo é explorar diferentes tecnologias e conceitos relevantes para a área.
-
----
-
-## Estrutura dos Tutoriais
-
-Cada pasta contém um tutorial autônomo sobre um tema específico:
-
-* **`tut-01`**: Construção de um pipeline de dados **ETL (Extract, Transform, Load)** utilizando Apache HOP, com visualização de dados no Power BI.
-* **`tut-02`**: Implementação de sistema de **busca em bancos de dados textuais**.
-* **`tut-03`**: Introdução à biblioteca **NLTK (Natural Language Toolkit)** para Processamento de Linguagem Natural (PLN).
-* **`tut-04`**: Desenvolvimento de APIs REST com **FastAPI** e **Flask**, incluindo integração com banco de dados **PostgreSQL**.
-* **`tut-05`**: Tutorial introdutório sobre o framework front-end **Next.js**.
-* **`tut-06`**: Introdução ao **LangChain**, com foco em técnicas de **Engenharia de Prompt** e utilização de **Embeddings**.
+This repository contains hands-on tutorials developed for the **Special Topics in Software Engineering** course.  
+The goal is to explore different technologies and concepts relevant to the field.
 
 ---
 
-## Projeto Final
+## Tutorial Structure
 
-Todo o conhecimento adquirido nestes tutoriais foi consolidado e aplicado na construção de um projeto final mais complexo. O repositório do projeto pode ser encontrado aqui:
+Each folder contains a self-contained tutorial on a specific topic:
 
-* **[Semantic Search Tool](https://github.com/FNevs/semantic-search-tool)**
+- **`tut-01`**: Building an **ETL (Extract, Transform, Load)** data pipeline using Apache HOP, with data visualization in Power BI.
+- **`tut-02`**: Implementing a **search system for textual databases**.
+- **`tut-03`**: Introduction to the **NLTK (Natural Language Toolkit)** library for Natural Language Processing (NLP).
+- **`tut-04`**: Developing REST APIs with **FastAPI** and **Flask**, including integration with **PostgreSQL**.
+- **`tut-05`**: Getting started with the front-end framework **Next.js**.
+- **`tut-06`**: Introduction to **LangChain**, focusing on **Prompt Engineering** and the use of **Embeddings**.
+
+---
+
+## Final Project
+
+All the knowledge from these tutorials was applied and extended in a more complex final project.  
+You can find the repository here (WIP):
+
+- **[Semantic Search Tool](https://github.com/FNevs/semantic-search-tool)**
