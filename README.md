@@ -16,8 +16,7 @@ Each folder contains a self-contained tutorial on a specific topic:
 - **`tut-05`**: Getting started with the front-end framework **Next.js**.
 - **`tut-06`**: Introduction to **LangChain**, focusing on **Prompt Engineering** and the use of **Embeddings**.
 
----
-
+<!---
 ## Final Project
 
 All the knowledge from these tutorials was applied and extended in a more complex final project.  
